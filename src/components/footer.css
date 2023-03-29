@@ -1,0 +1,23 @@
+.footerCont{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(19, 11, 11, 0.738);
+}
+
+.footSection{
+    padding: 10px;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.left, .middle, .right{
+    text-align: center;
+}
+
+.socialMedia{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}

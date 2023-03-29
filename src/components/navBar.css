@@ -1,0 +1,71 @@
+.App-header {
+    background-color: #282c34;
+    min-height: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    padding: 3px;
+  }
+
+.logo{
+    justify-content: flex-start;
+}
+
+.rightCont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.navLinks{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.link{
+    text-decoration: none;
+    color: wheat;
+    padding: 25px;
+    margin: 25px;
+}
+
+.loginButton{
+    width: 100px;
+    height: 40px;
+    color: white;
+    justify-self: center;
+    background-color: rgb(42, 21, 62);
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px white;
+}   
+
+@media screen and (max-width: 850px) {
+    .navLinks{
+        display: none;
+    }
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+
+        .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        padding: 12px 16px;
+        z-index: 1;
+    }
+
+        .dropdown:active .dropdown-content {
+        display: block;
+    }
+    
+
+}

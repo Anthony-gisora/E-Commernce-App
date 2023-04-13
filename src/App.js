@@ -11,7 +11,7 @@ function App() {
         <NavBar />
         <Routes>
           <Route path='/' element={ <Products /> } />
-          <Route path='*' element={ <div> <h1>404-Page Not Found</h1> </div> } />
+          <Route path='*' element={ <div> <h1>404-Page Not Found ...</h1> </div> } />
         </Routes>
         <Footer />
       </Router>
